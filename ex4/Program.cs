@@ -2,7 +2,7 @@
 
 int RandomNumber = new Random().Next(1, 1000000);
 Console.WriteLine(RandomNumber);
-int Result = RandomNumber / (3 * 7);
+int Result = RandomNumber / (23 * 7);
 if (Result == 0)
 {
    Console.WriteLine("Кратно");
